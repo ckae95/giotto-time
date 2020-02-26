@@ -101,7 +101,7 @@ class CausalityMixin:
                 )
                 tables["permutation_p_values"] = bootstrap_p_value
 
-            best_shifts = best_shifts.append(tables, ignore_index=True,)
+            best_shifts = best_shifts.append(tables, ignore_index=True)
 
         return best_shifts
 
